@@ -22,7 +22,7 @@
             <table>
                 <caption>Таблица пользователей</caption>
                 <tr>
-                    <th>@sortablelink('id')</th>
+                    <th>@sortablelink('id', 'ID')<span>&#11021;</span></th>
                     <th>@sortablelink('name', 'Имя')<span>&#11021;</span></th>
                     <th>@sortablelink('age', 'Возраст')<span>&#11021;</span></th>
                     <th>@sortablelink('email', 'E-mail')<span>&#11021;</span></th>
